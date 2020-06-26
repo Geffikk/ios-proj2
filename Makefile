@@ -15,3 +15,4 @@ clean :
 	
 %.o : %.c
 	gcc $(CFLAGS) -o $@ -c $<
+
